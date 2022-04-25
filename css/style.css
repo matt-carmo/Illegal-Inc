@@ -1,14 +1,103 @@
-* {
+@font-face {
+  font-family:CloisterBlack;
+  src: url(/assets/cloister_black/CloisterBlack.ttf);
+}
+*{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-header {
-  background:#000;
-  color: #fff;
-  text-align: center;
-  font-size: 1.5rem;
+img {
+  width: 100%;
 }
-body {
-  background: #ccc;
+a {
+  text-decoration: none;
+}
+
+header li a{
+  color: #fff;
+}
+
+header ul{
+  display: flex;
+  list-style: none;
+  font-size: 2rem;
+  justify-content: space-around;
+  padding: 2rem;
+  font-family:CloisterBlack;
+  color: #fff;
+  
+}
+.contacts{
+  display: flex;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  flex-direction: column;
+  font-size: 1.2rem;
+}
+header ul .logo{
+  font-size: 2.5rem;
+}
+body{
+  background-image: url('https://cdn.pixabay.com/photo/2015/09/23/22/24/tattoo-expo-954463_960_720.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size:  cover;
+  background-attachment: fixed;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+}
+.box-1{
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family:CloisterBlack;
+}
+.box-1 h1{
+  color: #D52436;
+  font-size: 8rem;
+  font-weight: 500;
+}
+.box-1 a{
+  color: #fff;
+  border: 2px solid #D52436;
+  font-size: 2rem;
+  font-family: Helvetica, sans-serif;
+  padding: 1rem 2rem;
+  margin-top: 3rem;
+}
+/* .box-1 h1::before {
+
+  content: "";
+  position:absolute;
+  margin-top: 4.2rem;
+  width: 700px;
+  height: 40px;
+  background-color: #4949496a;
+}  */
+.box-1 a:hover{
+  background: #D52436;
+  transition: 200ms;
+}
+.box-2 {
+
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(37, 27, 27);
+  padding: 1rem 5rem;
+  gap: 2rem;
+}
+.text h2{
+  font-family:CloisterBlack;
+  color: #D52436;
+  font-size: 3rem;
+  font-weight: 500;
+
+}
+.text p{
+
+  width: 60%;
+  line-height: 1rem;
+  
 }
