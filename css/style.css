@@ -2,6 +2,7 @@
   font-family:CloisterBlack;
   src: url(/assets/cloister_black/CloisterBlack.ttf);
 }
+:root
 *{
   padding: 0;
   margin: 0;
@@ -21,12 +22,15 @@ header{
 header li a{
   color: #fff;
 }
-
+header li {
+  width: 200px;
+}
 
 .logo {
   text-align: center;
   font-weight:400;
   position: relative;
+  margin: 0 auto;
 }
 .logo div::before{
   content:'';
@@ -64,6 +68,18 @@ header ul{
 }
 header ul .logo{
   font-size: 2.5rem;
+}
+.instagram-icon {
+  width: 20px;
+  height: 20px; 
+}
+ul li .instagram {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+.instagram-icon path{
+  fill: #ccc;
 }
 body{
   background-image: url('/assets/images/wallpaper.jpg');
