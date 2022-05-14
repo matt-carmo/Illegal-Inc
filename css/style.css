@@ -11,7 +11,6 @@
   src: url(/assets/fonts/Helvetica-Font/helvetica-rounded-bold-5871d05ead8de.otf);
 }
 
-
 * {
   padding: 0;
   margin: 0;
@@ -32,7 +31,6 @@ body {
   background-attachment: fixed;
   color: #fff;
   font-family: helvetica, sans-serif;
-
 }
 .slider,
 .slider,
@@ -51,9 +49,8 @@ header li a {
 header li {
   display: flex;
   flex-direction: column;
-  
+
   width: 200px;
- 
 }
 section h1 {
   color: #f1f1f1 !important;
@@ -71,7 +68,7 @@ section h1 {
   width: 130px;
   height: 3px;
   left: 50%;
-  bottom:20px;
+  bottom: 20px;
   transform: translate(-50%, -25px);
   background: #f02e2e;
 }
@@ -80,7 +77,7 @@ header ul {
   list-style: none;
   font-size: 1.5rem;
   justify-content: space-between;
-  
+
   align-items: center;
   font-family: CloisterBlack;
   color: #fff;
@@ -89,35 +86,30 @@ header .fa-bars {
   cursor: pointer;
   margin-left: 2rem;
   z-index: 1000;
-  
 }
-
 
 .contacts {
   font-family: Helvetica, sans-serif, Geneva, Verdana, sans-serif;
   flex-direction: column;
   font-weight: 400;
-  color: #f1f1f1;  
+  color: #f1f1f1;
   font-size: 1rem;
   justify-content: end;
   font-family: helvetica-light;
-  
 }
 .li-contacts {
   display: flex;
   flex-wrap: wrap-reverse;
   flex-direction: row-reverse;
   justify-content: flex-end;
-  
 }
-
 
 header ul .logo {
   font-size: 2.5rem;
 }
 .instagram-icon {
   width: 20px;
-  height: 20px; 
+  height: 20px;
 }
 
 .instagram-icon path {
@@ -133,47 +125,43 @@ ul li .instagram a {
   gap: 5px;
 }
 
- .menu-burguer {
-  position:fixed;
-  background-color: #ffffff;   
+.menu-burguer {
+  position: fixed;
+  background-color: #ffffff;
   height: 100vh;
-  top: 0;  
+  top: 0;
   z-index: 150;
   border-radius: 0 0 10px 0;
   visibility: hidden;
   transition: 500ms;
   width: 0;
-  left:-200px;
+  left: -200px;
 }
-.menu-burguer ul li{
+.menu-burguer ul li {
   margin-top: 1rem;
-  height:1rem;
+  height: 1rem;
 }
 .active {
   width: 200px;
   visibility: visible;
-  color: #000 !important; 
-  left:00px;
+  color: #000 !important;
+  left: 00px;
 }
 .active ul li a {
-  right: 200px
+  right: 200px;
 }
 .menu-burguer ul {
   display: flex;
   flex-direction: column;
   margin-top: 4rem;
-  
-
- 
 }
 
-.menu-burguer ul li a{
+.menu-burguer ul li a {
   color: #000;
-  
-  padding: .5rem 0;
+
+  padding: 0.5rem 0;
   font-family: helvetica-rounded;
   padding-left: 1rem;
-
 }
 /* .fa-bars {
   padding: 10px;
@@ -185,14 +173,14 @@ ul li .instagram a {
 .box-1 {
   height: 90vh;
   display: flex;
-  
+
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: CloisterBlack;
 }
 .box-1 h1 {
-  margin-top:2rem;
+  margin-top: 2rem;
   color: #fff;
   font-size: 8rem;
   font-weight: 500;
@@ -200,7 +188,6 @@ ul li .instagram a {
   z-index: 100;
 }
 .li-contacts {
-
   display: flex;
 }
 .box-1 h1::after {
@@ -253,7 +240,6 @@ ul li .instagram a {
 .text p {
   width: 60%;
   line-height: 1rem;
-  
 }
 .slider h1 {
   font-family: CloisterBlack;
@@ -266,8 +252,6 @@ ul li .instagram a {
 .slider {
   background-color: black;
 }
-
-
 
 /*Team */
 .box-3 {
@@ -361,58 +345,51 @@ ul li .instagram a {
   color: #ffffff;
 }
 
-.splide__slide{
+.splide__slide {
   margin: 0 5px;
 }
 
-#slider{
+#slider {
   background-color: black;
 }
-#gallery{
+#gallery {
   text-align: center;
   padding: 3rem;
-  font-family:CloisterBlack;
+  font-family: CloisterBlack;
   font-size: 4rem;
   font-weight: bold;
   background-color: black;
- 
 }
 
 @media (max-width: 890px) {
   .box-1 h1::after {
-    position: absolute;
-    content: "";
-  
-    width:calc(800px - 20%);
+
+
+    width: calc(800px - 20%);
     height: 50px;
-    background: #73000083;
-    left: 50%;
+
     bottom: calc(0.1rem);
-    z-index: -1;
-  
-    transform: translate(-50%, -25px);
+
   }
   .contacts {
     flex-direction: row;
-    width: 100% ;
+    width: 100%;
   }
   .contacts li {
     width: 40px;
-
   }
-  .li-contacts ul li a p{
+  .li-contacts ul li a p {
     display: none;
   }
   .instagram-icon {
-   
     width: 25px;
-    height: 25px; 
+    height: 25px;
   }
   .box-1 h1 {
     font-size: calc(7rem - 20%);
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 697px) {
   .contacts {
     flex-direction: column;
     align-items: flex-end;
@@ -421,7 +398,16 @@ ul li .instagram a {
   .contacts li {
     width: 20px;
   }
+  .box-1 h1 {
+    font-size: calc(7rem - 2.5rem);
+  }
+  .box-1 h1::after {
 
 
+    width: calc(800px - 23rem);
+    height: 25px;
 
+    bottom: calc(0.1rem);
+
+  }
 }
