@@ -2,6 +2,15 @@
   font-family: CloisterBlack;
   src: url(/assets/fonts/cloister_black/CloisterBlack.ttf);
 }
+@font-face {
+  font-family: helvetica-light;
+  src: url(/assets/fonts/Helvetica-Font/helvetica-light-587ebe5a59211.ttf);
+}
+@font-face {
+  font-family: helvetica-rounded;
+  src: url(/assets/fonts/Helvetica-Font/helvetica-rounded-bold-5871d05ead8de.otf);
+}
+
 
 * {
   padding: 0;
@@ -62,9 +71,9 @@ section h1 {
   width: 130px;
   height: 3px;
   left: 50%;
-  bottom: 17px;
+  bottom:20px;
   transform: translate(-50%, -25px);
-  background: #d52436;
+  background: #f02e2e;
 }
 header ul {
   display: flex;
@@ -91,6 +100,7 @@ header .fa-bars {
   color: #f1f1f1;  
   font-size: 1rem;
   justify-content: end;
+  font-family: helvetica-light;
   
 }
 .li-contacts {
@@ -100,6 +110,7 @@ header .fa-bars {
   justify-content: flex-end;
   
 }
+
 
 header ul .logo {
   font-size: 2.5rem;
@@ -122,36 +133,47 @@ ul li .instagram a {
   align-items: center;
   gap: 5px;
 }
+
  .menu-burguer {
   position:fixed;;  
-  background-color: rgb(255, 255, 255); 
-  width: 200px;
+  background-color: #ffffff;   
   height: 100vh;
-  top: 0;
-  
+  top: 0;  
   z-index: 150;
   border-radius: 0 0 10px 0;
-  text-align: center;
   visibility: hidden;
-  
+  transition: 500ms;
+  width: 0;
+  left:-200px;
+}
+.menu-burguer ul li{
+  margin-top: 1rem;
+  height:1rem;
 }
 .active {
+  width: 200px;
   visibility: visible;
-  
+  color: #000 !important; 
+  left:00px;
+}
+.active ul li a {
+  right: 200px
 }
 .menu-burguer ul {
   display: flex;
   flex-direction: column;
   margin-top: 4rem;
   
+
  
 }
 
 .menu-burguer ul li a{
   color: #000;
-  border-bottom: 1px solid rgb(231, 231, 231);
+  
   padding: .5rem 0;
-  font-family: helvetica;
+  font-family: helvetica-rounded;
+  padding-left: 1rem;
 
 }
 /* .fa-bars {
@@ -230,6 +252,7 @@ ul li .instagram a {
 .text p {
   width: 60%;
   line-height: 1rem;
+  
 }
 .slider h1 {
   font-family: CloisterBlack;

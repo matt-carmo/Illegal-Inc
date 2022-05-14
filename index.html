@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/combine/npm/@splidejs/splide@4.0.1/dist/css/splide.min.css,npm/@splidejs/splide@4.0.1/dist/css/splide-core.min.css,npm/@splidejs/splide@4.0.1/dist/css/themes/splide-default.min.css,npm/@splidejs/splide@4.0.1/dist/css/themes/splide-sea-green.min.css,npm/@splidejs/splide@4.0.1/dist/css/themes/splide-skyblue.min.css">
-  <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="/css/menu-burguer.css">
+  <link rel="stylesheet" href="/css/style.css" />
 
   <title>DePaulaInc</title>
 </head>
@@ -16,13 +17,18 @@
   <header>
     <ul>
       <li>
-        <div class="menu-burguer">
+        <nav class="menu-burguer">
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">Gallery</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#">Our Team</a></li>
           </ul>
+        </nav>
+        <div id="nav-icon1">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-        <i class="fa-solid fa-bars"></i>
       </li>
       
       <li class="logo">illegal<div></div>Inc</li>
@@ -47,11 +53,18 @@
               <p>ilegal.inc</p>
             </a>
           </li>
+          <li class="instagram">
+            <a href="https://www.google.com.br/maps/place/Ilegal+inc/@-22.8081683,-43.1989128,17z/data=!3m1!4b1!4m5!3m4!1s0x9979e6f99ccc97:0xb835289cdccf25b0!8m2!3d-22.8081683!4d-43.1967241" target="blank">
+              <svg xmlns="http://www.w3.org/2000/svg" class="instagram-icon" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M575.8 255.5C575.8 273.5 560.8 287.6 543.8 287.6H511.8L512.5 447.7C512.5 450.5 512.3 453.1 512 455.8V472C512 494.1 494.1 512 472 512H456C454.9 512 453.8 511.1 452.7 511.9C451.3 511.1 449.9 512 448.5 512H392C369.9 512 352 494.1 352 472V384C352 366.3 337.7 352 320 352H256C238.3 352 224 366.3 224 384V472C224 494.1 206.1 512 184 512H128.1C126.6 512 125.1 511.9 123.6 511.8C122.4 511.9 121.2 512 120 512H104C81.91 512 64 494.1 64 472V360C64 359.1 64.03 358.1 64.09 357.2V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L564.8 231.5C572.8 238.5 576.9 246.5 575.8 255.5L575.8 255.5z"/></svg>
+              <p>Estrada do Galeão - 1371</p>
+            </a>
+          </li>
+          
         </ul>
       </li>
     </ul>
   </header>
-  <main>
+  <main class="section">
     <section class="box-1">
       <h1>Tattoo Studio</h1>
       <a href="#splide_track" >Gallery </a>
