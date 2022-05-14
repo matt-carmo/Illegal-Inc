@@ -44,7 +44,7 @@ header li {
   flex-direction: column;
   
   width: 200px;
-  justify-self: right;
+ 
 }
 section h1 {
   color: #f1f1f1 !important;
@@ -71,11 +71,19 @@ header ul {
   list-style: none;
   font-size: 1.5rem;
   justify-content: space-between;
-  padding: 0rem 3rem;
+  
   align-items: center;
   font-family: CloisterBlack;
   color: #fff;
 }
+header .fa-bars {
+  cursor: pointer;
+  margin-left: 2rem;
+  z-index: 1000;
+  
+}
+
+
 .contacts {
   font-family: Helvetica, sans-serif, Geneva, Verdana, sans-serif;
   flex-direction: column;
@@ -99,6 +107,7 @@ header ul .logo {
 .instagram-icon {
   width: 20px;
   height: 20px;
+ 
 }
 
 .instagram-icon path {
@@ -112,6 +121,38 @@ ul li .instagram a {
   display: flex;
   align-items: center;
   gap: 5px;
+}
+ .menu-burguer {
+  position:fixed;;  
+  background-color: rgb(255, 255, 255); 
+  width: 200px;
+  height: 100vh;
+  top: 0;
+  
+  z-index: 150;
+  border-radius: 0 0 10px 0;
+  text-align: center;
+  visibility: hidden;
+  
+}
+.active {
+  visibility: visible;
+  
+}
+.menu-burguer ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  
+ 
+}
+
+.menu-burguer ul li a{
+  color: #000;
+  border-bottom: 1px solid rgb(231, 231, 231);
+  padding: .5rem 0;
+  font-family: helvetica;
+
 }
 /* .fa-bars {
   padding: 10px;
@@ -202,58 +243,7 @@ ul li .instagram a {
   background-color: black;
 }
 
-/*SLIDE TESTE*/
-.container-slide {
-  display: flex;
-  justify-content: space-between;
-  width: 50vw;
-  height: 50vh;
-  background-color: black;
-  margin: 0px auto;
-  border-radius: 10px;
-}
 
-.container-items {
-  position: absolute;
-  display: flex;
-  width: 50vw;
-  height: 50vh;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.item {
-  width: 50vw;
-  height: 50vh;
-  transition: all 1s;
-}
-.item:first-child {
-  margin-left: -100%;
-}
-
-.item img {
-  width: 50vw;
-  height: 50vh;
-  border-radius: 10px;
-}
-
-.action-button {
-  font: bold 30px sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50px;
-  color: #00000000;
-  user-select: none;
-  z-index: 1;
-}
-.action-button:hover {
-  color: white;
-  background-color: #00000055;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: all 1s;
-}
 
 /*Team */
 .box-3 {
@@ -345,4 +335,21 @@ ul li .instagram a {
   font-family: CloisterBlack;
   font-weight: bold;
   color: #ffffff;
+}
+
+.splide__slide{
+  margin: 0 5px;
+}
+
+#slider{
+  background-color: black;
+}
+#gallery{
+  text-align: center;
+  padding: 3rem;
+  font-family:CloisterBlack;
+  font-size: 4rem;
+  font-weight: bold;
+  background-color: black;
+ 
 }
