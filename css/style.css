@@ -117,8 +117,7 @@ header ul .logo {
 }
 .instagram-icon {
   width: 20px;
-  height: 20px;
- 
+  height: 20px; 
 }
 
 .instagram-icon path {
@@ -135,7 +134,7 @@ ul li .instagram a {
 }
 
  .menu-burguer {
-  position:fixed;;  
+  position:fixed;
   background-color: #ffffff;   
   height: 100vh;
   top: 0;  
@@ -377,4 +376,52 @@ ul li .instagram a {
   font-weight: bold;
   background-color: black;
  
+}
+
+@media (max-width: 890px) {
+  .box-1 h1::after {
+    position: absolute;
+    content: "";
+  
+    width:calc(800px - 20%);
+    height: 50px;
+    background: #73000083;
+    left: 50%;
+    bottom: calc(0.1rem);
+    z-index: -1;
+  
+    transform: translate(-50%, -25px);
+  }
+  .contacts {
+    flex-direction: row;
+    width: 100% ;
+  }
+  .contacts li {
+    width: 40px;
+
+  }
+  .li-contacts ul li a p{
+    display: none;
+  }
+  .instagram-icon {
+   
+    width: 25px;
+    height: 25px; 
+  }
+  .box-1 h1 {
+    font-size: calc(7rem - 20%);
+  }
+}
+@media (max-width: 500px) {
+  .contacts {
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 10px;
+  }
+  .contacts li {
+    width: 20px;
+  }
+
+
+
 }

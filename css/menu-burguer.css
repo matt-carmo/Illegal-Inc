@@ -14,9 +14,7 @@
   cursor: pointer;
   z-index: 1000;
 }
-#nav-icon1 .active {
 
-}
 
 #nav-icon1 span, #nav-icon3 span, #nav-icon4 span {
   display: block;
@@ -76,8 +74,6 @@
 
 /* Icon 2 */
 
-#nav-icon2 {
-}
 
 #nav-icon2 span {
   display: block;
@@ -205,8 +201,6 @@
 
 /* Icon 4 */
 
-#nav-icon4 {
-}
 
 #nav-icon4 span:nth-child(1) {
   top: 0px;
@@ -253,7 +247,4 @@
   transform: rotate(-45deg);
   top: 39px;
   left: 8px;
-}
-.open {
-
 }
