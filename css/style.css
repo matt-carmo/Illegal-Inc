@@ -411,3 +411,25 @@ ul li .instagram a {
 
   }
 }
+@media (max-width: 450px) {
+  .contacts {
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 10px;
+  }
+  .contacts li {
+    width: 20px;
+  }
+  .box-1 h1 {
+    font-size: calc(7rem - 3.5rem);
+  }
+  .box-1 h1::after {
+
+
+    width: calc(800px - 23rem);
+    height: 20px;
+
+    bottom:-0.5rem;
+
+  }
+}
