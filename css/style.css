@@ -426,7 +426,7 @@ ul li .instagram a {
   .box-1 h1::after {
 
 
-    width: calc(800px - 23rem);
+    width: calc(800px - 430px);
     height: 20px;
 
     bottom:-0.5rem;
