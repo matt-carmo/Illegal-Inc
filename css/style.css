@@ -3,12 +3,16 @@
   src: url(/assets/fonts/cloister_black/CloisterBlack.ttf);
 }
 @font-face {
-  font-family: Helvetica-light;
-  src: url(/assets/fonts/Helvetica-Font/helvetica-light-587ebe5a59211.ttf);
+  font-family: helvetica-light;
+  src: url('/assets/fonts/Helvetica-Font/helvetica-light-587ebe5a59211.ttf');
 }
 @font-face {
   font-family: helvetica-rounded;
   src: url(/assets/fonts/Helvetica-Font/helvetica-rounded-bold-5871d05ead8de.otf);
+}
+@font-face {
+  font-family: Helvetica-pattern;
+  src: url(/assets/fonts/Helvetica-Font/Helvetica.ttf);
 }
 
 * {
@@ -36,7 +40,8 @@ body {
 .splide,
 .box-3,
 .section-about,
-.team-tattoo
+.team-tattoo,
+.section-tattoo-care
  {
   background: url("/assets/images/background2gnu.jpg");
 }
@@ -338,12 +343,13 @@ ul li .instagram a {
 }
 .team-text2{
   font-family: CloisterBlack;
-  text-align: center;
+ 
   font-size: 2rem;
   color: #f5f5f5;
   font-weight: bold;
-  padding: 10px;
+
   max-width: 300px;
+
 }
 .team-tattoo h1{
   font-family: CloisterBlack;
@@ -356,8 +362,8 @@ ul li .instagram a {
 
 .team-tattoo h2{
   font-family: CloisterBlack;
-  text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+  
   color: #f5f5f5;
   font-weight: bold;
   padding: 10px;
@@ -379,9 +385,82 @@ ul li .instagram a {
   padding: 3rem;
   font-family: CloisterBlack;
   font-size: 4rem;
-  font-weight: bold;
+  letter-spacing: .2rem;
+
+  font-weight:600;
   background-color: black;
 }
+/*Tattoo Care*/
+article.tattoo-care{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+	gap: 1rem;
+  align-content: space-around;
+  width: 80vw;
+  margin: 0rem auto;
+  padding:2rem;
+}
+.item h2 {
+  font-family: CloisterBlack;
+  font-size: 3.5rem;
+  width:2rem;
+
+}
+.item h2::after {
+  position: relative;
+  font-family: 'arial';
+  content: '|';
+  font-size: 1.5rem;
+  color: #B90013;
+  left: .2rem;
+  
+}
+.item-text {
+  display: flex;
+ flex-direction: column;
+  
+}
+.item-text-header{
+  font-weight: 400;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: flex-end;
+  font-family: Cloisterblack;
+  gap: 1rem; 
+}
+
+.item-text p {
+  margin-left: 3.3rem;
+  font-size: 1rem;
+  font-family:Helvetica-pattern,helvetica-light, helvetica-rounded;
+}
+.tattoo-care .item {
+  width:100%; 
+  margin: auto;  
+}
+.tattoo-care .item-1 {
+  grid-column: 1;
+  grid-row: 1;  
+   
+}
+.tattoo-care .item-2 {
+  grid-column: 2;
+  grid-row: 2;  
+   
+}
+.tattoo-care .item-3 {
+  grid-column: 1;
+  grid-row: 3;
+   
+}
+.tattoo-care .item-4 {
+  grid-column: 2;
+  grid-row: 4;  
+   
+}
+
+
+/*Tattoo care end*/
 
 @media (max-width: 890px) {
   .box-1 h1::after {
@@ -444,6 +523,16 @@ ul li .instagram a {
     left: 0;
     
   }
+  article.tattoo-care{
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    align-content: space-around;
+    width: 80vw;
+    margin: 0rem auto;
+    padding:2rem; */
+  }
 
 }
 @media (max-width: 480px) {
@@ -470,5 +559,6 @@ ul li .instagram a {
     bottom:-0.5rem;
 
   }
+ 
   
 }

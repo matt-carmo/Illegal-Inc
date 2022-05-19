@@ -1,7 +1,7 @@
 var splide = new Splide('.splide', {
   perPage: 4,
   cover: true,
-  height: '30rem',
+  height: '40rem',
   lazyLoad: 'nearby',
 
 });
