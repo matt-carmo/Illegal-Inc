@@ -254,97 +254,50 @@ ul li .instagram a {
 }
 
 /*Team */
-.box-3 {
+
+.team-tattoo{
   display: flex;
-  flex-grow: 1;
   flex-direction: column;
-  color: #fff;
-  background-color: black;
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
+  
 }
-.time-3 {
+.team-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px; 
+}
+.team-list {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-left: 1rem;
+}
+.team-text2{
   font-family: CloisterBlack;
-  font-weight: bold;
-  font-size: 5rem;
   text-align: center;
-  margin-bottom: 6rem;
-}
-.fotos {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: stretch;
-  justify-content: space-around;
-  padding: 5px;
-  margin: 5px;
-}
-
-.ft {
-  width: 240px;
-  height: 240px;
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
-    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
-    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
-    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
-    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-}
-.ft img {
-  max-width: 100%;
-  min-height: 100%;
-}
-
-.ft img:hover {
-  transform: scale(1.1, 1.1);
-  transition: all;
-  transition-delay: 100ms;
-  transition-duration: 400ms;
-}
-.content-1 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: stretch;
-  justify-content: space-around;
-  padding: 5px;
-  margin: 5px;
-}
-.sobre-1 {
-  width: 240px;
-  height: 240px;
-}
-
-.sobre-1 h1 {
-  width: 100%;
-  padding-bottom: 5px;
-  font-family: CloisterBlack;
-  font-weight: bolder;
-  color: #ffffff;
-}
-.sobre-1 p {
-  width: 100%;
-}
-.listul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: stretch;
-  justify-content: space-around;
-  margin-top: -70px;
-}
-
-.lista-1 {
-  margin: 5px;
-  padding: 5px;
-  width: 240px;
-  height: 240px;
-}
-.lista-1 h2 {
-  width: 100%;
-  padding-bottom: 5px;
-  font-family: CloisterBlack;
+  font-size: 2rem;
+  color: #f5f5f5;
   font-weight: bold;
-  color: #ffffff;
+  padding: 10px;
+  max-width: 300px;
+}
+.team-tattoo h1{
+  font-family: CloisterBlack;
+  text-align: center;
+  font-size: 2rem;
+  color: #f5f5f5;
+  font-weight: bold;
+  padding: 10px;
+}
+.team-tattoo img{
+    max-width: 300px; 
 }
 
+
+/* slide*/
 .splide__slide {
   margin: 0 5px;
 }
@@ -352,7 +305,7 @@ ul li .instagram a {
 #slider {
   background-color: black;
 }
-#gallery {
+.title-h1 {
   text-align: center;
   padding: 3rem;
   font-family: CloisterBlack;
