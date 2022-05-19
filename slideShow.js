@@ -6,7 +6,7 @@ var splide = new Splide('.splide', {
 
 });
 
-if (window.matchMedia("(max-width: 450px)").matches) {
+if (window.matchMedia("(max-width: 600px)").matches) {
   var splide = new Splide('.splide', {
     perPage: 1,
     cover: true,

@@ -3,7 +3,7 @@
   src: url(/assets/fonts/cloister_black/CloisterBlack.ttf);
 }
 @font-face {
-  font-family: helvetica-light;
+  font-family: Helvetica-light;
   src: url(/assets/fonts/Helvetica-Font/helvetica-light-587ebe5a59211.ttf);
 }
 @font-face {
@@ -34,7 +34,9 @@ body {
 }
 .slider,
 .slider,
-.box-3 {
+.box-3,
+.section-about
+ {
   background: url("/assets/images/background2gnu.jpg");
 }
 
@@ -66,7 +68,7 @@ section h1 {
   content: "";
   position: absolute;
   width: 130px;
-  height: 3px;
+  height: 4px;
   left: 50%;
   bottom: 20px;
   transform: translate(-50%, -25px);
@@ -95,7 +97,7 @@ header .fa-bars {
   color: #f1f1f1;
   font-size: 1rem;
   justify-content: end;
-  font-family: helvetica-light;
+  font-family: Helvetica-light;
 }
 .li-contacts {
   display: flex;
@@ -186,6 +188,65 @@ ul li .instagram a {
   font-weight: 500;
   position: relative;
   z-index: 100;
+}
+.card {
+  padding:2rem 3rem;
+  gap: 2rem;
+  display: flex;
+}
+
+.card div {
+ 
+  flex: 1;
+}
+.card-img {
+  position: relative;
+ 
+}
+.card-text{
+  position: relative;
+}
+.card-text h2 {
+  font-family:CloisterBlack ;
+  font-size: 2rem;
+  position: absolute;
+  top: -1.5rem;
+  left: -1rem;
+
+}
+.card-text p {
+  margin-top: 1rem;
+  font-family: Helvetica-light;
+}
+.card-img img{
+  
+  border-left:4px solid #B90013;
+  border-top:4px solid #B90013;
+  border-right:4px solid #B90013;
+  position: relative;
+  z-index: 2;
+}
+.card-img-2{
+  position: relative;
+}
+.card-img::before{
+  position: absolute;
+  content: '';
+  top: -30px;
+  width: 47.5%;
+  height: 20%;
+  background: #ff000036; 
+  left: 10px;
+}
+.card-img-2::after{
+  position: absolute;
+  content: '';
+  right: 10px;
+  bottom: -30px;
+  width: 47.5%;
+  height: 20%;
+  z-index: 1;
+  background: #ff000036;
 }
 .li-contacts {
   display: flex;
@@ -281,7 +342,7 @@ ul li .instagram a {
 .ft {
   width: 240px;
   height: 240px;
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -24px 25px 0px inset,
     rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
     rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
@@ -410,8 +471,21 @@ ul li .instagram a {
     bottom: calc(0.1rem);
 
   }
+  .card {
+    flex-direction: column;
+   
+  }
+  .card-text h2 {
+    font-family:CloisterBlack ;
+    font-size: 2rem;
+    position: absolute;
+    top: -1.5rem;
+    left: 0;
+    
+  }
+
 }
-@media (max-width: 450px) {
+@media (max-width: 480px) {
   .contacts {
     flex-direction: column;
     align-items: flex-end;
@@ -423,6 +497,9 @@ ul li .instagram a {
   .box-1 h1 {
     font-size: calc(7rem - 3.5rem);
   }
+  .title-h1 {
+    font-size: 3rem;
+  }
   .box-1 h1::after {
 
 
@@ -432,4 +509,5 @@ ul li .instagram a {
     bottom:-0.5rem;
 
   }
+  
 }
