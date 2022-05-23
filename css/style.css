@@ -382,7 +382,7 @@ ul li .instagram a {
 }
 .title-h1 {
   text-align: center;
-  padding: 3rem;
+  padding: 3rem 0;
   font-family: CloisterBlack;
   font-size: 4rem;
   letter-spacing: .2rem;
@@ -470,6 +470,9 @@ article.tattoo-care{
     bottom: calc(0.1rem);
 
   }
+  /* .title-h1 {
+    padding: 2rem 0;
+  } */
   .contacts {
     flex-direction: row;
     width: 100%;
