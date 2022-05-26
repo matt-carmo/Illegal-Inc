@@ -181,24 +181,20 @@ ul li .instagram a {
 
 
 .box-1 {
-
-  height: 85vh;
+  height: 90vh;
   display: flex;
+
   flex-direction: column;
-  position: relative;
-  top: 10vh;
   align-items: center;
   justify-content: center;
   font-family: CloisterBlack;
-  
 }
 .box-1 h1 {
-  
+  margin-top: 2rem;
   color: #fff;
   font-size: 8rem;
   font-weight: 500;
   position: relative;
-
   z-index: 100;
 }
 .card {
@@ -433,16 +429,14 @@ article.tattoo-care{
   
 }
 .item-text-header{
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1.6rem;
   display: flex;
   align-items: flex-end;
   font-family: Cloisterblack;
   gap: 1rem; 
 }
-.item-text-header h3 {
-  font-weight: 500;
-}
+
 .item-text p {
   margin-left: 3.3rem;
   font-size: 1rem;
@@ -469,21 +463,8 @@ article.tattoo-care{
 }
 .tattoo-care .item-4 {
   grid-column: 2;
-  grid-row: 4;     
-}
-.tattoo-care .item-5 {
-  grid-column: 1;
-  grid-row: 5;  
+  grid-row: 4;  
    
-}
-.tattoo-care .item-6 {
-  grid-column: 2;
-  grid-row: 6;
-   
-}
-.tattoo-care .item-7 {
-  grid-column: 1;
-  grid-row: 7;     
 }
 /*Tattoo care end*/
 
@@ -496,12 +477,6 @@ article.tattoo-care{
 
     bottom: calc(0.1rem);
 
-  }
-  .card {
-    padding:2rem 0.8rem;
-    gap: 2rem;
-    display: flex;
-    
   }
   /* .title-h1 {
     padding: 2rem 0;
@@ -560,28 +535,16 @@ article.tattoo-care{
   article.tattoo-care{
     display: flex;
     flex-direction: column;
-    
-    gap: 2rem;
-    
-    width: 100vw;
-    
-    padding:1rem;
+    /* grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    align-content: space-around;
+    width: 80vw;
+    margin: 0rem auto;
+    padding:2rem; */
   }
-  article.tattoo-care h3{
-    font-size: 2rem;
-    font-weight: 500;
-  }
-  
 
 }
 @media (max-width: 480px) {
-  .card-text p {
-    margin-top: 1rem;
-    font-size: 1rem;
-    font-family: Helvetica-pattern;
-    color: #f5f5f5;
-    line-height: 1.1rem;
-  }
   .contacts {
     flex-direction: column;
     align-items: flex-end;
@@ -594,10 +557,14 @@ article.tattoo-care{
     font-size: calc(7rem - 3.5rem);
   }
   .title-h1 {
-    font-size: 3rem;  }
+    font-size: 3rem;
+  }
   .box-1 h1::after {
-    width: calc(800px - 470px);
+
+
+    width: calc(800px - 430px);
     height: 20px;
+
     bottom:-0.5rem;
 
   }
