@@ -185,7 +185,8 @@ ul li .instagram a {
   height: 85vh;
   display: flex;
   flex-direction: column;
-  
+  position: relative;
+  top: 10vh;
   align-items: center;
   justify-content: center;
   font-family: CloisterBlack;
@@ -432,14 +433,16 @@ article.tattoo-care{
   
 }
 .item-text-header{
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.6rem;
   display: flex;
   align-items: flex-end;
   font-family: Cloisterblack;
   gap: 1rem; 
 }
-
+.item-text-header h3 {
+  font-weight: 500;
+}
 .item-text p {
   margin-left: 3.3rem;
   font-size: 1rem;
@@ -466,8 +469,21 @@ article.tattoo-care{
 }
 .tattoo-care .item-4 {
   grid-column: 2;
-  grid-row: 4;  
+  grid-row: 4;     
+}
+.tattoo-care .item-5 {
+  grid-column: 1;
+  grid-row: 5;  
    
+}
+.tattoo-care .item-6 {
+  grid-column: 2;
+  grid-row: 6;
+   
+}
+.tattoo-care .item-7 {
+  grid-column: 1;
+  grid-row: 7;     
 }
 /*Tattoo care end*/
 
@@ -545,11 +561,15 @@ article.tattoo-care{
     display: flex;
     flex-direction: column;
     
-    gap: 0rem;
-   
+    gap: 2rem;
+    
     width: 100vw;
     
     padding:1rem;
+  }
+  article.tattoo-care h3{
+    font-size: 2rem;
+    font-weight: 500;
   }
   
 
