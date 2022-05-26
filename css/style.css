@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: helvetica-light;
-  src: url('/assets/fonts/Helvetica-Font/helvetica-light-587ebe5a59211.ttf');
+  src: url("/assets/fonts/Helvetica-Font/helvetica-light-587ebe5a59211.ttf");
 }
 @font-face {
   font-family: helvetica-rounded;
@@ -41,11 +41,9 @@ body {
 .box-3,
 .section-about,
 .team-tattoo,
-.section-tattoo-care
- {
+.section-tattoo-care {
   background: url("/assets/images/background2gnu.jpg");
 }
-
 header {
   position: absolute;
   width: 100%;
@@ -64,7 +62,6 @@ section h1 {
   color: #f1f1f1 !important;
   text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
-
 .logo {
   text-align: center;
   font-weight: 400;
@@ -85,7 +82,6 @@ header ul {
   list-style: none;
   font-size: 1.5rem;
   justify-content: space-between;
-
   align-items: center;
   font-family: CloisterBlack;
   color: #fff;
@@ -95,7 +91,6 @@ header .fa-bars {
   margin-left: 2rem;
   z-index: 1000;
 }
-
 .contacts {
   font-family: Helvetica, sans-serif, Geneva, Verdana, sans-serif;
   flex-direction: column;
@@ -111,7 +106,6 @@ header .fa-bars {
   flex-direction: row-reverse;
   justify-content: flex-end;
 }
-
 header ul .logo {
   font-size: 2.5rem;
 }
@@ -119,20 +113,17 @@ header ul .logo {
   width: 20px;
   height: 20px;
 }
-
 .instagram-icon path {
   fill: #f1f1f1;
 }
 ul li {
   margin: 0.1rem 0;
 }
-
 ul li .instagram a {
   display: flex;
   align-items: center;
   gap: 5px;
 }
-
 .menu-burguer {
   position: fixed;
   background-color: #ffffff;
@@ -178,8 +169,6 @@ ul li .instagram a {
   cursor: pointer;
 } */
 
-
-
 .box-1 {
   height: 90vh;
   display: flex;
@@ -198,31 +187,26 @@ ul li .instagram a {
   z-index: 100;
 }
 .card {
-  padding:2rem 3rem;
+  padding: 2rem 3rem;
   gap: 2rem;
   display: flex;
-  
 }
 
 .card div {
- 
   flex: 1;
 }
 .card-img {
   position: relative;
- 
 }
-.card-text{
+.card-text {
   position: relative;
-  
 }
 .card-text h2 {
-  font-family:CloisterBlack ;
+  font-family: CloisterBlack;
   font-size: 2rem;
   position: absolute;
   top: -1.5rem;
   left: -1rem;
-
 }
 .card-text p {
   margin-top: 1rem;
@@ -231,30 +215,29 @@ ul li .instagram a {
   color: #f5f5f5;
   line-height: 2rem;
 }
-.card-img img{
-  
-  border-left:4px solid #B90013;
-  border-top:4px solid #B90013;
-  border-right:4px solid #B90013;
+.card-img img {
+  border-left: 4px solid #b90013;
+  border-top: 4px solid #b90013;
+  border-right: 4px solid #b90013;
   position: relative;
   z-index: 2;
 }
-.card-img-2{
+.card-img-2 {
   position: relative;
   height: 100%;
 }
-.card-img::before{
+.card-img::before {
   position: absolute;
-  content: '';
+  content: "";
   top: -30px;
   width: 47.5%;
   height: 20%;
-  background: #ff000036; 
+  background: #ff000036;
   left: 10px;
 }
-.card-img-2::after{
+.card-img-2::after {
   position: absolute;
-  content: '';
+  content: "";
   right: 10px;
   bottom: -30px;
   width: 47.5%;
@@ -268,14 +251,12 @@ ul li .instagram a {
 .box-1 h1::after {
   position: absolute;
   content: "";
-
   width: 800px;
   height: 50px;
   background: #73000083;
   left: 50%;
   bottom: 0.9rem;
   z-index: -1;
-
   transform: translate(-50%, -25px);
 }
 .box-1 a {
@@ -286,15 +267,7 @@ ul li .instagram a {
   padding: 1rem 2rem;
   margin-top: 6rem;
 }
-/* .box-1 h1::before {
 
-  content: "";
-  position:absolute;
-  margin-top: 4.2rem;
-  width: 700px;
-  height: 40px;
-  background-color: #4949496a;
-}  */
 .box-1 a:hover {
   background: #d52436;
   transition: 200ms;
@@ -329,19 +302,18 @@ ul li .instagram a {
 }
 
 /*Team */
-.team-tattoo{
+.team-tattoo {
   display: flex;
   flex-direction: column;
   background-color: #000;
   justify-content: center;
   align-items: center;
-  
 }
-.team-text{
+.team-text {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 300px; 
+  max-width: 300px;
 }
 .team-list {
   display: flex;
@@ -349,17 +321,14 @@ ul li .instagram a {
   gap: 3rem;
   margin-left: 1rem;
 }
-.team-text2{
+.team-text2 {
   font-family: CloisterBlack;
- 
   font-size: 2rem;
   color: #f5f5f5;
   font-weight: bold;
-
   max-width: 300px;
-
 }
-.team-tattoo h1{
+.team-tattoo h1 {
   font-family: CloisterBlack;
   text-align: center;
   font-size: 2rem;
@@ -368,16 +337,16 @@ ul li .instagram a {
   padding: 10px;
 }
 
-.team-tattoo h2{
+.team-tattoo h2 {
   font-family: CloisterBlack;
   font-size: 1.6rem;
-  
+
   color: #f5f5f5;
   font-weight: bold;
   padding: 10px;
 }
-.team-tattoo img{
-    max-width: 300px; 
+.team-tattoo img {
+  max-width: 300px;
 }
 
 /*Slide*/
@@ -393,101 +362,90 @@ ul li .instagram a {
   padding: 3rem 0;
   font-family: CloisterBlack;
   font-size: 4rem;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
 
-  font-weight:600;
+  font-weight: 600;
   background-color: black;
 }
 /*Tattoo Care*/
-article.tattoo-care{
+article.tattoo-care {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-	gap: 1rem;
+  gap: 1rem;
   align-content: space-around;
   width: 80vw;
   margin: 0rem auto;
-  padding:2rem;
+  padding: 2rem;
 }
 .item-text-header h2 {
   font-family: CloisterBlack;
-  font-size: 3.5rem;  
-  width:2rem;
+  font-size: 3.5rem;
+  width: 2rem;
 }
-
 .item-text-header h2::after {
   position: relative;
-  font-family: 'arial';
-  content: '|';
+  font-family: "arial";
+  content: "|";
   font-size: 1.5rem;
-  color: #B90013;
-  left: .2rem;
-  
+  color: #b90013;
+  left: 0.2rem;
 }
 .item-text {
   display: flex;
- flex-direction: column;
-  
+  flex-direction: column;
 }
-.item-text-header{
+.item-text-header {
   font-weight: 400;
   font-size: 1.6rem;
   display: flex;
   align-items: flex-end;
   font-family: Cloisterblack;
-  gap: 1rem; 
+  gap: 1rem;
 }
-
 .item-text p {
   margin-left: 3.3rem;
   font-size: 1rem;
-  font-family:Helvetica-pattern,helvetica-light, helvetica-rounded;
+  font-family: Helvetica-pattern, helvetica-light, helvetica-rounded;
 }
 .tattoo-care .item {
-  width:100%; 
-  margin: auto;  
+  width: 100%;
+  margin: auto;
 }
 .tattoo-care .item-1 {
   grid-column: 1;
-  grid-row: 1;  
-   
+  grid-row: 1;
 }
 .tattoo-care .item-2 {
   grid-column: 2;
-  grid-row: 2;  
-   
+  grid-row: 2;
 }
 .tattoo-care .item-3 {
   grid-column: 1;
   grid-row: 3;
-   
 }
 .tattoo-care .item-4 {
   grid-column: 2;
-  grid-row: 4;     
+  grid-row: 4;
 }
 .tattoo-care .item-5 {
   grid-column: 1;
-  grid-row: 5;     
+  grid-row: 5;
 }
 .tattoo-care .item-6 {
   grid-column: 2;
-  grid-row: 6;     
+  grid-row: 6;
 }
 .tattoo-care .item-7 {
   grid-column: 1;
-  grid-row: 7;     
+  grid-row: 7;
 }
 /*Tattoo care end*/
 
 @media (max-width: 890px) {
   .box-1 h1::after {
-
-
     width: calc(800px - 20%);
     height: 50px;
-
     bottom: calc(0.1rem);
-
   }
   /* .title-h1 {
     padding: 2rem 0;
@@ -518,11 +476,10 @@ article.tattoo-care{
   }
   .item-text-header h3 {
     font-size: 1.4rem;
-  
-  } 
+  }
   article.tattoo-care {
     width: 100vw;
-    padding: .5rem;
+    padding: 0.5rem;
   }
   .contacts li {
     width: 20px;
@@ -531,37 +488,25 @@ article.tattoo-care{
     font-size: calc(7rem - 2.5rem);
   }
   .box-1 h1::after {
-
-
     width: calc(800px - 23rem);
     height: 25px;
 
     bottom: calc(0.1rem);
-
   }
   .card {
     flex-direction: column;
-   
   }
   .card-text h2 {
-    font-family:CloisterBlack ;
+    font-family: CloisterBlack;
     font-size: 2rem;
     position: absolute;
     top: -1.5rem;
     left: 0;
-    
   }
-  article.tattoo-care{
+  article.tattoo-care {
     display: flex;
     flex-direction: column;
-    /* grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-    align-content: space-around;
-    width: 80vw;
-    margin: 0rem auto;
-    padding:2rem; */
   }
-
 }
 @media (max-width: 480px) {
   .contacts {
@@ -576,17 +521,10 @@ article.tattoo-care{
     font-size: calc(7rem - 3.5rem);
   }
   .title-h1 {
-    font-size: 3rem;
-  }
+    font-size: 3rem;  }
   .box-1 h1::after {
-
-
     width: calc(800px - 480px);
     height: 20px;
-
-    bottom:-0.5rem;
-
+    bottom: -0.5rem;
   }
- 
-  
 }
