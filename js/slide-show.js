@@ -7,6 +7,7 @@ splider.forEach(element => {
     perPage: 3,
     cover: true,
     height: '40rem',
+  
     lazyLoad: 'nearby',
     autoScroll:true,
     

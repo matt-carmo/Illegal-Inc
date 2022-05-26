@@ -58,7 +58,7 @@ header li {
   display: flex;
   flex-direction: column;
 
-  width: 200px;
+  width: 210px;
 }
 section h1 {
   color: #f1f1f1 !important;
@@ -150,7 +150,7 @@ ul li .instagram a {
   height: 1rem;
 }
 .active {
-  width: 200px;
+  width: 230px;
   visibility: visible;
   color: #000 !important;
   left: 00px;
@@ -408,13 +408,13 @@ article.tattoo-care{
   margin: 0rem auto;
   padding:2rem;
 }
-.item h2 {
+.item-text-header h2 {
   font-family: CloisterBlack;
-  font-size: 3.5rem;
+  font-size: 3.5rem;  
   width:2rem;
-
 }
-.item h2::after {
+
+.item-text-header h2::after {
   position: relative;
   font-family: 'arial';
   content: '|';
@@ -463,8 +463,19 @@ article.tattoo-care{
 }
 .tattoo-care .item-4 {
   grid-column: 2;
-  grid-row: 4;  
-   
+  grid-row: 4;     
+}
+.tattoo-care .item-5 {
+  grid-column: 1;
+  grid-row: 5;     
+}
+.tattoo-care .item-6 {
+  grid-column: 2;
+  grid-row: 6;     
+}
+.tattoo-care .item-7 {
+  grid-column: 1;
+  grid-row: 7;     
 }
 /*Tattoo care end*/
 
@@ -504,6 +515,14 @@ article.tattoo-care{
     flex-direction: column;
     align-items: flex-end;
     margin-right: 10px;
+  }
+  .item-text-header h3 {
+    font-size: 1.4rem;
+  
+  } 
+  article.tattoo-care {
+    width: 100vw;
+    padding: .5rem;
   }
   .contacts li {
     width: 20px;
@@ -562,7 +581,7 @@ article.tattoo-care{
   .box-1 h1::after {
 
 
-    width: calc(800px - 430px);
+    width: calc(800px - 480px);
     height: 20px;
 
     bottom:-0.5rem;
