@@ -4,10 +4,7 @@ const splider = document.querySelectorAll('.splide')
 
 splider.forEach(element => {
   var splide = new Splide(element, {
-    perPage: 3,
-    cover: true,
-    height: '40rem',
-  
+    perPage: 3,    
     lazyLoad: 'nearby',
     autoScroll:true,
     
