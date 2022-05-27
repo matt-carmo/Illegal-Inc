@@ -1,13 +1,20 @@
 .splide__slide {
  
 
- min-width: 380px !important;
- min-height:304px !important;
+
  
  width: 520px !important;
  height:650px !important;
 }
-.splide__slide img {
- 
+.splide__list {
+ gap: 1rem;
+}
+@media (max-width: 480px) {
 
+ .splide__slide {
+  
+  width: 304px !important;
+  height:380px !important;
+  
+ }
 }
