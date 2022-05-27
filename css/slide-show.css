@@ -1,9 +1,13 @@
 .splide__slide {
- border: 1px solid red;
  
- width: calc(480px) !important;
- height: calc(600px) !important;
+
+ min-width: 380px !important;
+ min-height:304px !important;
+ 
+ width: 520px !important;
+ height:650px !important;
 }
 .splide__slide img {
+ 
 
 }
