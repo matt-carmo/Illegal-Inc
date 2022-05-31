@@ -27,22 +27,26 @@ img {
 a {
   text-decoration: none;
 }
-body {
+.box-1 {
   background-image: url("/assets/images/wallpaper.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+
+}
+body {
   color: #fff;
   font-family: helvetica, sans-serif;
 }
-.slider,
-.splide,
-.box-3,
-.section-about,
-.team-tattoo,
-.section-tattoo-care {
-  background: url("/assets/images/background2gnu.jpg");
+/* .animate__animated {
+  visibility:hidden;;
+}
+.animate__animated.visible {
+  visibility: visible;
+} */
+main{
+  background: url("/assets/images/background2gnu.jpg"); 
 }
 header {
   position: absolute;
@@ -74,6 +78,24 @@ section h1 {
   height: 4px;
   left: 50%;
   bottom: 20px;
+  transform: translate(-50%, -25px);
+  background: #f02e2e;
+}
+.footer {
+  position: relative;
+  font-family:CloisterBlack;
+  margin: .5rem;
+}
+.footer a {
+  color: #fff;
+}
+.footer div::before {
+  content: "";
+  position: absolute;
+  width: 55px;
+  height: 2px;
+  left: 50%;
+  bottom: -9px;
   transform: translate(-50%, -25px);
   background: #f02e2e;
 }
