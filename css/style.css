@@ -41,7 +41,9 @@ body {
 .box-3,
 .section-about,
 .team-tattoo,
-.section-tattoo-care {
+.section-tattoo-care,
+.location,
+.title-h1 {
   background: url("/assets/images/background2gnu.jpg");
 }
 header {
@@ -440,7 +442,40 @@ article.tattoo-care {
   grid-row: 7;
 }
 /*Tattoo care end*/
+/*Google Maps*/
+.location{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.informations{
+  margin: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.informations-1{
+  display: flex;
 
+}
+.maps{
+ /* margin-right: 50px; */
+  border-top: 3px solid red;
+  border-right: 3px solid red;
+  border-left: 3px solid red;
+ 
+}
+.contacts-1{
+  width: 300px;
+  border: 1px solid red;
+}
+.contacts-2 h3{
+  font-family: Cloisterblack;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
 @media (max-width: 890px) {
   .box-1 h1::after {
     width: calc(800px - 20%);
