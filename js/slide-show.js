@@ -29,7 +29,17 @@ if (window.matchMedia("(max-width: 600px)").matches) {
   var splide1 = new Splide(element, {
     perPage: 1,
     cover: true,
-    lazyLoad: 'nearby',    
+    
+    lazyLoad: 'nearby',
+    autoScroll:true,
+    
+    type   : 'loop',
+    drag   : 'free',
+    focus  : 'center',
+    autoScroll: {
+      speed: 1,
+    },  
+    
   });
   splide1.mount();
   
