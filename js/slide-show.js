@@ -23,7 +23,7 @@ splider.forEach(element => {
 
   
 
-if (window.matchMedia("(max-width: 600px)").matches) {
+if (window.matchMedia("(max-width: 768px)").matches) {
   splide.destroy()
  
   var splide1 = new Splide(element, {
@@ -42,12 +42,7 @@ if (window.matchMedia("(max-width: 600px)").matches) {
     
   });
   splide1.mount();
-  
-} 
-else {
-
-}
-
+  } 
   
   
 
