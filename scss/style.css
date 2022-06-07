@@ -35,12 +35,13 @@ a {
 }
 
 .box-1 {
-  background-image: url("https://www.institutoeleven.com.br/fotos/como-ser-um-tatuador-curso-de-tatuagem.jpg");
+  background-image: url("/assets/images/wallpaper1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   font-family: helvetica, sans-serif;
+  color: #fff;
 }
 
 .slider,
@@ -495,7 +496,7 @@ ul li .instagram a {
 article.tattoo-care {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
+  -ms-grid-columns: (1fr);
       grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   -ms-flex-line-pack: distribute;
