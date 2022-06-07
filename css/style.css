@@ -28,13 +28,11 @@ a {
   text-decoration: none;
 }
 body {
-  background: url("/assets/images/wallpaper.jpg") no-repeat center center fixed;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-image: url("https://www.institutoeleven.com.br/fotos/como-ser-um-tatuador-curso-de-tatuagem.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  color: #fff;
+  background-attachment: fixed;
   font-family: helvetica, sans-serif; 
 }
 .slider,
