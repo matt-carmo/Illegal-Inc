@@ -29,13 +29,18 @@ a {
 }
 body {
   background-image: url("/assets/images/wallpaper.jpg");
- /* background-position: center center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+  
   color: #fff;
-  font-family: helvetica, sans-serif;
-  */
+  font-family: helvetica, sans-serif; 
 }
 .slider,
 .splide,
