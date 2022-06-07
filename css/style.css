@@ -28,13 +28,13 @@ a {
   text-decoration: none;
 }
 body {
-  background-image: url("/assets/images/wallpaper.jpg");
+  background-image: url("./assets/images/wallpaper.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   color: #fff;
-  font-family: helvetica, sans-serif;
+  font-family: helvetica, sans-serif; 
 }
 .slider,
 .splide,
@@ -44,7 +44,7 @@ body {
 .section-tattoo-care,
 .location,
 .title-h1 {
-  background: url("/assets/images/background2gnu.jpg");
+  background: url("./assets/images/background2gnu.jpg");
 }
 header {
   position: absolute;
@@ -67,7 +67,8 @@ section h1 {
 .logo {
   text-align: center;
   font-weight: 400;
-  margin: 0 auto;
+  margin: 0 
+  
 }
 .logo div::before {
   content: "";
@@ -515,7 +516,7 @@ article.tattoo-care {
   fill: #000;
 }
 
-@media (max-width: 890px) {
+@media (max-width: 1024px) {
   .box-1 h1::after {
     width: calc(800px - 20%);
     height: 50px;
