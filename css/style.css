@@ -28,7 +28,7 @@ a {
   text-decoration: none;
 }
 body {
-  background-image: url("./assets/images/wallpaper.jpg");
+  background-image: url("/assets/images/wallpaper.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,7 +44,7 @@ body {
 .section-tattoo-care,
 .location,
 .title-h1 {
-  background: url("./assets/images/background2gnu.jpg");
+  background: url("/assets/images/background2gnu.jpg");
 }
 header {
   position: absolute;
