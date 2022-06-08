@@ -694,7 +694,9 @@ article.tattoo-care {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-
+footer {
+  display: flex;
+}
 .icon-contacts-1::before {
   position: absolute;
   content: "";
@@ -703,6 +705,18 @@ article.tattoo-care {
   height: 0.15rem;
   background-color: red;
 }
+/*Footer list*/
+.list-footer{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+
+ 
+  overflow: hidden;
+  
+
+}
+
 
 .icon-contacts-1 path {
   fill: #000;
